@@ -1,8 +1,13 @@
 const express = require('express')
 const pgPromise = require('pg-promise')
 const app = express();
-const port = 3000;
-const db = pgPromise()("postgres://postgres:postgres@localhost:5432/card");
+const port = process.env.PORT || 3000;
+const db = pgPromise()({
+    connectionString: process.env.DATABASE_URL,
+    ssl: {
+      rejectUnauthorized: false
+    }
+  });
 
 const creaTabella = async () => {
     try {
@@ -59,7 +64,7 @@ app.get('/api/oggetti', async (req, res) => {
 });
 
 app.listen(port, async () => {
-    console.log(`Server is running on port http://localhost:${port}/api/oggetti`);
+    console.log(`${port}/api/oggetti`);
     await creaTabella(); 
     await inserisciDati(); 
 })
