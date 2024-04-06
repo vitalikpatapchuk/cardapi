@@ -1,6 +1,5 @@
-import express from 'express';
-import pgPromise from 'pg-promise';
-
+const express = require('express')
+const pgPromise = require('pg-promise')
 const app = express();
 const port = 3000;
 const db = pgPromise()("postgres://postgres:postgres@localhost:5432/card");
