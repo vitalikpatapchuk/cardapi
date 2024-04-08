@@ -1,6 +1,9 @@
 const express = require('express')
+const cors = require('cors')
+
 const app = express();
 const port = process.env.PORT || 3000;
+app.use(cors());
 
 let cradObgets = [
     {
@@ -97,12 +100,16 @@ let cradObgets = [
 ]
 
 app.get('/api/oggetti', async (req, res) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+    res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
     try {
         res.status(200).json(cradObgets);
     } catch (err) {
         console.error('Errore durante il recupero degli oggetti', err);
     }
 });
+
 
 app.listen(port, async () => {
     console.log(`${port}/api/oggetti`); 
