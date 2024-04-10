@@ -8,94 +8,115 @@ app.use(cors());
 let cradObgets = [
     {
         id:1,
-        titolo: "Dragon's Dogma 2",
-        immagine: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRXsre1_DAl4H2fNij-Tdv-DJhHCbdTFRpzjWquFmS5FmE3EvpgyhyM9AX5PStCIJWBdR1CuXW-FSw8N09SzJM2CEHNs6o74dk6Gn-KRAE&usqp=CAc",
-        descrizione: "Parti per la tua grande avventura, Arisen! Dragon's Dogma è una serie di GDR per giocatore singolo ricca di azione e narrazione che offre ai giocatori la possibilità di scrivere la propria storia, dall'aspetto del loro Arisen, la sua classe, la sua squadra, l'approccio alle varie situazioni e molto altro.",
-        link: "https://www.instant-gaming.com/it/15666-comprare-dragon-s-dogma-2-xbox-series-x-s-xbox-series-x-s-gioco-microsoft-store/?currency=EUR&utm_source=google&utm_medium=cpc&utm_campaign=21120682969&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQs95BhnYG3UwQM6UtNLiPRlFclg0FS9_Ket9SChG9POjU6P8gUJXXZRoCB9kQAvD_BwE"
+        titolo:"Forza Horizon 4",
+        immagine:"https://multiplayer.net-cdn.it/thumbs/images/2018/07/04/apps3609314339303838396367725ab8dd-f8b7-4a29-a351-45ebd5d66edd_jpg_300x300_q85.jpg",
+        descrizione:"Forza Horizon 4 è puro godimento visivo. Un racer così spettacolare non lo si vedeva da tempo, e se la memoria torna immancabilmente a Project Gotham Racing 4 è perché tra le fila di Playground Games c'è gente che ha lavorato in Bizarre Creations, dunque sa perfettamente come far cascare la mascella agli appassionati. Dopo poche ore dall'inizio della campagna, abbiamo fatto un piccolo esperimento: ci siamo messi a girare liberamente per l'enorme ambientazione britannica del gioco, raggiunto la città di Edimburgo e parcheggiato in un viale del parco antistante il castello. A quel punto siamo virtualmente scesi dall'auto e abbiamo attivato il drone, muovendoci rapidissimi fra le strade della capitale scozzese, ammirando le architetture dei suoi edifici più celebri e le strade del centro.",
+        link:"https://multiplayer.it/recensioni/forza-horizon-4-pc-recensione.html"
     },
     {
         id:2,
-        titolo: "Helldivers 2",
-        immagine: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTDqeIyPcYoLgl963YuEpwtJh-yks2DTZj5MoN38VwGlMJJWRpS72Nny5ouG318jAlMo8GSz1zm-UUBJPnDT-2s_VPqdBQT9FaiEt9QCKok&usqp=CAc",
-        descrizione: "L'ultima linea di attacco della galassia. Unisciti agli Helldiver per combattere in nome della libertà in una galassia ostile in questo frenetico e feroce sparatutto in terza persona. TRASMISSIONE URGENTE - FORZE ARMATE DELLA SUPER TERRALibertà. Pace. Democrazia. I tuoi diritti di nascita sulla Super Terra.",
-        link: "https://www.instant-gaming.com/it/9575-comprare-helldivers-2-pc-gioco-steam-europe/?currency=EUR&utm_source=google&utm_medium=cpc&utm_campaign=20519197874&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQs5mb0-lOxJuyP_dQmZ4pbbJ9mPfqqgcdNshjhRvv8mocYYUufFq3yBoCkxoQAvD_BwE"
+        titolo:"StarCraft II: Wings of Liberty",
+        immagine:"https://multiplayer.net-cdn.it/thumbs/images/2018/03/01/productproduct-image-402248-0x0-q85_jpg_300x300_q85.jpg",
+        descrizione:"E' passato molto tempo, davvero tantissimo. Un arco temporale, quello trascorso tra il 1998 e il 2010, che permette di notare differenze macroscopiche all'interno della vita di un uomo, segnando addirittura lo scorrere di più generazioni di software e hardware quando si volge lo sguardo verso un medium giovane come quello trattato in queste pagine. Se chi scrive non può azzardare alcuna supposizione su come allora ciascuno occupasse le proprie giornate, qualche certezza in più riguardo le serate è possibile averla: quei dodici mesi furono gloriosi in ambito console, con la nascita di Metal Gear Solid e Xenogears su Playstation, oltre che di Zelda: Ocarina of the Time su Nintendo 64, ma forse ancor di più per chi si dilettava con mouse e tastiera, intento a destreggiarsi tra i vari Half Life, Unreal, Thief, Grim Fandango e, ovviamente, StarCraft con la relativa espansione Broodwar - uscita l'anno dopo in Europa.",
+        link:"https://multiplayer.it/recensioni/79481-starcraft-ii-wings-of-liberty-hell-its-about-time.html"
     },
     {
         id:3,
-        titolo: "S.T.A.L.K.E.R. 2",
-        immagine: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSswbiknH4X-7OqVKvOFdb2MgWK7Qg29gweIMF5DvfYssKgYyHZ-GU4CWuxQRsAWJrFILZtebpse_xWcDMh5-Wn8XdXnteLTZ_2mauWZA9Y81q_zmxMBf2L&usqp=CAc",
-        descrizione: "S.T.A.L.K.E.R. 2: Heart of Chernobyl per PC è un gioco di sopravvivenza horror sparatutto in prima persona (FPS), il quarto del famosissimo franchise di S.T.A.L.K.E.R. È un gioco per giocatore singolo che è stato in sviluppo per la maggior parte degli 11 anni, da quando lo studio che lo ha sviluppato, ha dovuto attraversare vari problemi finanziari e legali.",
-        link: "https://www.instant-gaming.com/it/5376-comprare-s-t-a-l-k-e-r-2-heart-of-chornobyl-pc-gioco-steam-europe/?currency=EUR&utm_source=google&utm_medium=cpc&utm_campaign=20513682663&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQs7IbUU1-dBJL8DOYNZlQkIxTO4d2bkL59M-z1BQerDyTiqtJm9UlKxoCaMYQAvD_BwE"
+        titolo:"March of Empires: War of Lords",
+        immagine:"https://store-images.s-microsoft.com/image/apps.29548.13510798885034953.71bce0fd-7d3d-43b1-a6ff-ffe511aec3a6.e680c140-4d1c-483a-8954-5f6b139ce0ed?mode=scale&q=90&h=300&w=200",
+        descrizione:"Tuffati nell'MMO strategico in tempo reale March of Empires! Costruisci un potente regno, crea un esercito imbattibile e conquista l'impero! Durante la tua missione, costruisci un impero medievale con una delle grandi fazioni in guerra a tua scelta: shogun, re degli altipiani, zar del nord e sultani del deserto. Ogni esercito ti garantisce uno speciale vantaggio nella zona di guerra che puoi usare per delineare la tua strategia di battaglia.",
+        link:"https://apps.microsoft.com/detail/9nblggh33zdv?hl=it-it&gl=IT"
     },
     {
         id:4,
-        titolo: "Elden Ring - Shadow of the Erdtree",
-        immagine: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSiIx0diTDhi79_iRzHHg00B9R6Jf43U5OI0zaBVhmrcl5W55VRS6KafzP9lZV0ho7Ddgc3FIp2T9sMc1yO1eDYB4IWfH6UYcXevUug_FFi&usqp=CAc",
-        descrizione: "Vincitore di centinaia di premi, tra cui quelli per Gioco dell''anno ai Game Awards e ai Golden Joystick Awards, ELDEN RING è l'acclamato GdR d'azione ambientato in un oscuro universo fantasy. Affronta un epico viaggio ed esplora in piena libertà un gigantesco mondo disseminato di avventure.",
-        link: "https://www.instant-gaming.com/it/13652-comprare-elden-ring-shadow-of-the-erdtree-pc-gioco-steam-europe/?currency=EUR&utm_source=google&utm_medium=cpc&utm_campaign=20513682663&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQsww76fS7-39tOdclTUXuv6D5aEu4WVMjdfPX1X28-wJqmZdvcUc3MBoCa2UQAvD_BwE"
+        titolo:"Asphalt 9: Legends",
+        immagine:"https://store-images.s-microsoft.com/image/apps.15390.14471421918435459.3615d8d5-10ca-4c2f-b3e5-e8c97fe18682.abd3cc95-35b2-40d0-8b62-33ced0101eec?q=90&w=177&h=265",
+        descrizione:"Il carburante che alimenta il battito del tuo cuore. Accelera, derapa ed elimina i tuoi rivali in ambientazioni reali da brivido. Colleziona più di 200 supercar e corri al volante dei bolidi dei marchi più prestigiosi come Ferrari, Porsche e Lamborghini. Raggiungi la gloria in questo multipremiato gioco di corse arcade! Auto leggendarie da collezionare e personalizzare. Corri al volante di bolidi scelti tra i marchi più prestigiosi. Potenzia gli attributi delle tue auto e personalizzale modificandone i colori, aggiungendo parti in fibra di carbonio e tanto altro ancora.",
+        link:"https://multiplayer.it/recensioni/asphalt-9-legends-recensione.html"
     },
     {
         id:5,
-        titolo: "Avatar: Frontiers of Pandora",
-        immagine: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQir-ZooCwPK1NhfaOXmeVoXLH13u6lhBitJBI0A37X9-IqOD4fIzoKQKB0-9E2RvCKUpR5w7snsDanUJU_kgaDq9KGMf935ceC5qFin6hF&usqp=CAc",
-        descrizione: "Avatar: Frontiers of Pandora per PC è un gioco d'azione e avventura in prima persona. I giocatori vestono i panni di un orfano Na'vi che è stato adottato dalla RDA (Resources Development Administration - coloni giunti a Pandora per i minerali rari, tra le altre cose) e cresciuto come soldato.",
-        link: "https://www.instant-gaming.com/it/9014-comprare-avatar-frontiers-of-pandora-pc-gioco-ubisoft-connect-europe/?currency=EUR&utm_source=google&utm_medium=cpc&utm_campaign=20519197568&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQs9nmP0_0FIVuhgKt-wh9U0NQeNw_Na50GOtNJLFDsfr8mwahzQUoXBoC79QQAvD_BwE"
+        titolo:"Forza Horizon 5",
+        immagine:"https://store-images.s-microsoft.com/image/apps.56329.13734397844529069.202e3fc9-37d6-4853-a58b-fabe504b71e8.b2447b97-7903-48de-8a49-9669d0495c4f?q=90&w=177&h=265",
+        descrizione:"Forza Horizon 5 è un videogioco open world di guida, sviluppato da Playground Games e pubblicato il 9 novembre 2021 da Xbox Game Studios in esclusiva per Xbox One, Xbox Series X/S e Windows da Playground Games utilizzando il motore grafico ForzaTech dei Turn 10 Studios.",
+        link:"https://multiplayer.it/recensioni/forza-horizon-5-recensione-racing-game-arcade-definitivo-xbox-pc.html"
     },
     {
         id:6,
-        titolo: "Cyberpunk 2077",
-        immagine: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSiaTn0Yf3ig49SDRigzb-_h4RzL8chjh_CNqzbIaqkY2NjWSqQCTMmbFdfkhAdm0TASFR5KhpqT6YYT3Z_CNw_2stCFjHJu2_4jCphTgzs&usqp=CAc",
-        descrizione: "Cyberpunk 2077 per PC è un gioco sparatutto in prima persona, ma con una differenza. É ambientato in uno stato distopico della California, in cui le regole della nazione e dello stato non si applicano più. Invece, giocando come un mercenario di nome V, il giocatore deve muoversi per la città, raggiungere i propri obiettivi e nel frattempo combattere i nemici.",
-        link: "https://www.instant-gaming.com/it/840-comprare-cyberpunk-2077-pc-gioco-gog-com/?currency=EUR&utm_source=google&utm_medium=cpc&utm_campaign=20519197568&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQs5wVQ3A9wlOHPgKdjJ7hOsQHq3-4rWMn5gUgcykBqhtIg2DJZUXwbRoCmmEQAvD_BwE"
+        titolo:"Forza Motorsport Premium Edition",
+        immagine:"https://store-images.s-microsoft.com/image/apps.23691.14083713035901346.16619c9c-f1cb-4fd8-93b8-e5754d238bfe.4052cbaa-13c5-47d9-b436-27e536e0a197?q=90&w=177&h=265",
+        descrizione:"Forza Motorsport Premium Edition include il gioco completo con 5 giorni di accesso anticipato, pacchetto auto Race Day, pass auto (30 auto consegnate settimanalmente al tuo gioco, una a settimana), abbonamento VIP e pacchetto di benvenuto.",
+        link:"https://multiplayer.it/recensioni/189568-forza-motorsport-7-prova-di-forza-la-recensione-di-forza-motorsport-7-su-pc.html"
     },
     {
         id:7,
-        titolo: "God of War: Ragnarök PS5",
-        immagine: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRv3C_62tYHIjI323kY5Yb6f5lBBangOkzPNr8FHKzoWmUPqR4D9WMDIBloC34obh3YC1A1kRY5pz_Jdv8Pf3VuwYA0vTyGQmFuPrqdOfdo&usqp=CAc",
-        descrizione: "È in arrivo dagli sviluppatori di Santa Monica Studio il sequel dell'apprezzatissimo God of War (2018). Unisciti a Kratos e Atreus in un viaggio mitico alla ricerca di risposte prima che sopraggiunga il Ragnarök. Insieme, padre e figlio si spingeranno al limite nel corso del loro viaggio in ognuno dei nove regni.",
-        link: "https://www.instant-gaming.com/it/9312-comprare-god-of-war-ragnarok-ps5-playstation-5-gioco-playstation-store-europe/?currency=EUR&utm_source=google&utm_medium=cpc&utm_campaign=21064117133&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQs_F-tzEggTXIvmzV44ilrRUo_vzNCsN4yS-3zNO5MUld_XpQgi82uxoCG68QAvD_BwE"
+        titolo:"The Crew Motorfest Cross-Gen Bundle",
+        immagine:"https://store-images.s-microsoft.com/image/apps.20396.13949675886756188.dad92b2f-f3da-4409-9797-fb951136d3c5.3bc50be1-3a60-4808-837f-051165e3f00c?q=90&w=177&h=265",
+        descrizione:"Fai il biglietto per il Motorfest e divertiti a giocare gratis per cinque ore! Se vuoi continuare le tue avventure in The Crew Motorfest, acquista il gioco e mantieni i tuoi progressi! Tutto quello che avrai fatto e sbloccato durante la prova gratuita sarà salvato e resterà disponibile nel caso decidessi di acquistare il gioco.",
+        link:"https://multiplayer.it/recensioni/the-crew-motorfest-recensione.html"
     },
     {
         id:8,
-        titolo: "Hogwarts Legacy",
-        immagine: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTAJpVy-K82y3YNO5UYAXh-RSXAFY8Z7eJFnyjuV0SBhLjUzjBG8rCREzC6nUz8M99tq8Xt9kCS5y0lzHJGgwqGvXzLtMwXFuUFTMhfU0g&usqp=CAc",
-        descrizione: "Hogwarts Legacy per PC è un gioco di ruolo d'azione e avventura per giocatore singolo basato sull'universo di Harry Potter, in cui il giocatore assume il ruolo di un nuovo arrivato nel castello incantato tanto amato dai fan dei libri e del franchise cinematografico.",
-        link: "https://www.instant-gaming.com/it/7072-comprare-hogwarts-legacy-pc-gioco-steam-europe/?currency=EUR&utm_source=google&utm_medium=cpc&utm_campaign=20519197568&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQsxe01DkHLukyPWFhq-REIRmcwa57bBR9ahj3UC0CnXN3158mW9BlYxoCzQUQAvD_BwE"
+        titolo:"Asphalt 8: Airborne",
+        immagine:"https://store-images.s-microsoft.com/image/apps.55946.9007199266242715.2368eea1-5d8f-4935-a5bb-f16bc919be66.ef3b53b9-747c-4dfb-8d20-6e15eaab0ead?mode=scale&q=90&h=300&w=200",
+        descrizione:"UNA VALANGA DI CONTENUTI: più di 400 eventi carriera, 1.500 sfide Maestria auto, 5 modalità di gioco uniche. Un vero e proprio torrente di contenuti per giocatore singolo! MODIFICA E POTENZIA LE TUE AUTO: affronta gli avversari con stile, con oltre 2.300 adesivi!",
+        link:"https://multiplayer.it/recensioni/122481-asphalt-8-airborne-in-alto-piu-in-alto.html"
     },
     {
         id:9,
-        titolo: "Warhammer Age of Sigmar: Realms of Ruin",
-        immagine: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSOKRt0ZF16fsx34Oxvfos1W0m--2oRRGLIwX-hrcNkJrDIkyST-7H4i9yP3BiSwro_7FyVf2kmfzsfG-AgjS5vI2zNpvmo3ZwIZ70eRAo&usqp=CAc",
-        descrizione: "Uno strategico in tempo reale realizzato da Frontier e ambientato nell'iconico universo di Warhammer. Diventa un generale e guida quattro diverse fazioni per conquistare il selvaggio Regno di Ghur in battaglie cariche di tensione e strategia.",
-        link: "https://www.instant-gaming.com/it/14228-comprare-warhammer-age-of-sigmar-realms-of-ruin-pc-gioco-steam/?currency=EUR&utm_source=google&utm_medium=cpc&utm_campaign=20519197568&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQs85V7514ENnoJ272AgGSC92eFaMHHxt8bWevk-IpWTL1EqLpJdckSBoCYYkQAvD_BwE"
+        titolo:"Starfield",
+        immagine:"https://store-images.s-microsoft.com/image/apps.35187.13567343664224659.1eb6fdf9-8a0b-4344-a135-ab17dfa3c609.c83b6d6a-56c3-4c3f-8b31-456cfb21c3b7?q=90&w=177&h=265",
+        descrizione:"Starfield è il primo nuovo universo in oltre 25 anni da Bethesda Game Studios, i pluripremiati creatori di The Elder Scrolls V: Skyrim e Fallout 4. In questo gioco di ruolo di nuova generazione ambientato tra le stelle, crea il personaggio che desideri ed esplora con una libertà senza precedenti, in un epico viaggio per scoprire la risposta al più grande mistero dell'umanità.",
+        link:"https://multiplayer.it/recensioni/starfield-recensione-esclusiva-xbox.html"
     },
     {
         id:10,
-        titolo: "Spy Family",
-        immagine: "https://e423jnt9w5t.exactdn.com/wp-content/uploads/2023/09/spy-x-family.jpg?strip=all&lossy=1&ssl=1",
-        descrizione: "Spy Family è un appassionante manga/anime che mescola azione, comicità e suspense in un'avventura spionistica unica nel suo genere. Segui la storia di Twilight, un agente segreto, che forma una famiglia improvvisata per una missione importante. Con personaggi eccentrici e situazioni improbabili, Spy Family offre un'esperienza avvincente e divertente che cattura l'attenzione degli spettatori di tutte le età.",
-        link: "https://www.mondadoristore.it/spy-x-family/#:~:text=La%20storia%20di%20Spy%20x,piccola%20orfana%20con%20poteri%20psichici."
+        titolo:"The Elder Scrolls V: Skyrim Anniversary Edition",
+        immagine:"https://store-images.s-microsoft.com/image/apps.19255.14120048182721302.9120a847-1aae-4918-be10-96c02cb917a6.092d6861-c0ff-498c-9881-c0b7ff9f1f2d?q=90&w=177&h=265",
+        descrizione:"The Elder Scrolls V: Skyrim, vincitore di più di 200 premi come Gioco dell'Anno, festeggia 10 anni di avventure con dettagli mozzafiato. L'Anniversary Edition include dieci anni di contenuti: il pluripremiato gioco base, gli add-on di Skyrim Special Edition e i contenuti del Creation Club pubblicati fino all'11 novembre 2021.",
+        link:"https://multiplayer.it/articoli/the-elder-scroll-v-skyrim-anniversary-edition-vale-pena-tornare-terre-nord.html"
     },
     {
         id:11,
-        titolo: "Attack on Titan",
-        immagine: "https://e423jnt9w5t.exactdn.com/wp-content/uploads/2023/09/attack-on-titan.jpg?strip=all&lossy=1&ssl=1",
-        descrizione: "Attack on Titan è un acclamato manga e anime che racconta la storia di un mondo devastato da giganteschi esseri umanoidi noti come Titani. In un contesto post-apocalittico, i sopravvissuti umani si rifugiano all'interno di enormi mura per proteggersi. La trama segue Eren Yeager e i suoi amici mentre cercano di sconfiggere i Titani e scoprire la verità dietro la loro esistenza, affrontando oscuri segreti e tradimenti lungo il cammino. Con un mix di azione, dramma e suspense, Attack on Titan offre un'avventura avvincente e emozionante che ha catturato milioni di fan in tutto il mondo.",
-        link: "https://shingekinokyojin.fandom.com/it/wiki/Shingeki_no_Kyojin"
+        titolo:"Atomic Heart",
+        immagine:"https://store-images.s-microsoft.com/image/apps.47017.14612697019000138.539d22c7-f29f-45cb-90a2-8cd62b2154e8.276a878c-e989-44f4-8019-8a04231f0bc0?q=90&w=177&h=265",
+        descrizione:"Sfruttando le abilità di combattimento conferite dal tuo guanto sperimentale e l'arsenale di lame e armi all'avanguardia, dovrai lottare per la sopravvivenza in incontri frenetici ed esplosivi. Adatta lo stile di combattimento a ogni avversario. Combina abilità e risorse, serviti dell'ambiente e potenzia l'equipaggiamento per superare ogni sfida e garantire la supremazia del bene.",
+        link:"https://multiplayer.it/recensioni/atomic-heart-recensione.html"
     },
     {
         id:12,
-        titolo: "Hell's Paradise",
-        immagine: "https://e423jnt9w5t.exactdn.com/wp-content/uploads/2023/09/hells-paradise.jpg?strip=all&lossy=1&ssl=1",
-        descrizione: "Hell's Paradise è stato una delle rivelazioni di quest'anno. Prodotto dal sempre presente studio MAPPA, è riuscito fin da subito ad incantare il pubblico per le sue ambientazioni dai colori suggestivi e la trama cruenta e misteriosa. L'opera originale è scritta e disegnata da Yuji Kaku, ed è pubblicata dal 2018, completata poi nel 2021.",
-        link: "https://www.dimensionefumetto.it/hells-paradise-jigokuraku-un-racconto-darmi-e-di-eroi/#:~:text=%E2%80%9CInferno%20del%20paradiso%E2%80%9D%2C%20un,2021%2C%20composta%20da%2013%20volumi."
+        titolo:"TERMINATOR: RESISTANCE - COMPLETE EDITION",
+        immagine:"https://store-images.s-microsoft.com/image/apps.28963.14481702441162721.c7480887-b91d-4bcd-b3e8-f3b6ec68853a.cffd31f5-683a-43be-8c1c-470aa0242ccf?q=90&w=177&h=265",
+        descrizione:"Il futuro non è ancora stato scritto… prendi il destino nelle tue mani con Terminator: Resistance - Complete Edition! Un pacchetto completo che sfodera una versione migliorata di Terminator: Resistance, lo sparatutto in soggettiva ufficiale ambientato nell'universo di Terminator, l'espansione narrativa Annihilation Line con Kyle Reese e l'Infiltrator Mode, in cui i giocatori possono assumere il controllo della celeberrima unità da infiltrazione T-800 series.",
+        link:"https://multiplayer.it/recensioni/terminator-resistance-recensione.html"
     },
     {
         id:13,
-        titolo: "That time i Got Reincarnated as a Slime",
-        immagine: "https://e423jnt9w5t.exactdn.com/wp-content/uploads/2023/09/that-time-i-got-reincarnated-as-a-slime.jpg?strip=all&lossy=1&ssl=1",
-        descrizione: "TenSura (per non ripetere il lunghissimo nome di questo anime) è stato una vera e propria rivelazione. In un panorama dove gli Isekai (genere di anime nel quale il protagonista solitamente si reincarna in un altro mondo fantastico ed ottiene poteri oltre ogni limite) la fanno da padrone, finalmente abbiamo un opera ben scritta, con personaggi interessanti ed una trama non proprio così banale.",
-        link: "https://www.animeclick.it/anime/23783/tensei-shitara-slime-datta-ken"
+        titolo:"STEAM, I MIGLIORI GIOCHI DA COMPRARE CON I SALDI",
+        immagine:"https://images.everyeye.it/img-notiziealt/steam-migliori-giochi-comprare-saldi-cyberpunk-gta-v-the-witcher-3-v4-709838-350x16.webp",
+        descrizione:"Ogni giorno è festa tra le pagine di Steam, grazie ai saldi che non terminano mai. Anche oggi è arrivato il momento di scoprire quali titoli recuperare ad un prezzo ridotto rispetto a quello di listino, complice una vasta offerta videoludica che vi intratterrà per tantissime ore. Quali sono i migliori giochi in saldo su Steam? Ce n'è per tutti! I nomi più in voga sono diversi: con Cyberpunk 2077, Assetto Corsa Competizione, The Witcher 3 Wild Hunt, Grand Theft Auto V e tanto altro, Steam ha dato il via a offerte speciali a un prezzo stracciato. Si avvicina la fine del weekend, ed è giunta l'ora di passare la restante parte del fine settimana con diverse ore d'intrattenimento all'insegna del gaming. Bando alle ciance, ecco i prodotti da recuperare su Steam:",
+        link:"https://www.everyeye.it/notizie/steam-migliori-giochi-comprare-saldi-cyberpunk-gta-v-the-witcher-3-709838.html"
+    },
+    {
+        id:14,
+        titolo:"XBOX GAME PASS: 5 MAGNIFICHE AVVENTURE NARRATIVE",
+        immagine:"https://images.everyeye.it/img-notiziealt/xbox-game-pass-5-magnifiche-avventure-narrative-non-potete-perdervi-v12-709709-350x16.webp",
+        descrizione:"I giochi competitivi online sono senza dubbio avvincenti, non a caso oggigiorno vanno per la maggiore rappresentando delle grandi fonti di guadagno per i publisher. Ciononostante un'ampia numero di utenti continua a preferire le esperienze solitarie dai forti connotati narrativi. Siete tra loro? Ecco 5 single player imperdibili su Game Pass. Se avete apprezzato Innocence, non potete fare a meno del suo eccellente seguito, A Plague Tale: Requiem, che prosegue il viaggio di Amica ed Hugo verso il sud della Francia su un'isola che parrebbe racchiudere la chiave per salvare il giovane dalla sua maledizione.",
+        link:"https://www.everyeye.it/notizie/xbox-game-pass-5-grandi-avventure-narrative-non-potete-perdervi-709709.html"
+    },
+    {
+        id:15,
+        titolo:"VALORANT SCATENA IL POTERE DEGLI INCUBI",
+        immagine:"https://images.everyeye.it/img-notiziealt/valorant-scatena-potere-incubi-impressionante-cosplay-fade-xhemyd-v4-709392-350x16.webp",
+        descrizione:"Valorant prosegue il proprio programma di rinnovamento, a metà tra gli eSports e continui aggiornamenti che permettono all'utenza di non abbandonare il campo di battaglia. L'offerta proposta dallo shooter di Riot Games è sempre più ampia e attrae anche e soprattutto la community dei cosplayer. Il mondo dei cosplay è in crescita e tra i videogiochi che più stanno catturando l'immaginazione degli artisti da ogni angolo del globo troviamo Valorant. Il titolo free to play di Riot offre un mix unico di personaggi carismatici e misteriosi che permettono ai cosplayer di immergersi nei loro panni e di portarli in vita con un livello di fedeltà senza pari. A tal proposito, avete scoperto del Cosplay Grand Tour di Riot Games?",
+        link:"https://www.everyeye.it/notizie/valorant-scatena-potere-incubi-impressionante-cosplay-fade-xhemyd-709392.html"
+    },
+    {
+        id:16,
+        titolo:"UN NUOVO PRINCE OF PERSIA NEL 2024",
+        immagine:"https://images.everyeye.it/img-notiziealt/un-prince-of-persia-2024-verrA-annunciato-entro-aprile-v5-708930-350x16.webp",
+        descrizione:"Aggiornamento: in un nuovo messaggio condiviso su X, Tom Henderson rivela che il gioco di Prince of Persia in questione verrà annunciato entro la fine di questo mese, anche se una data precisa per il reveal non è stata comunicata dall'insider. A poco tempo dal lancio di Prince of Persia The Lost Crown, che ha ottenuto un buon successo tra i fan e rilanciato la storica IP di Ubisoft, ecco spuntare un rumor su un nuovo capitolo della serie apparentemente in sviluppo presso gli studi di Evil Empire.",
+        link:"https://www.everyeye.it/notizie/prince-of-persia-gioco-2024-sviluppato-autori-dead-cells-rumor-708930.html"
     }
 ]
 
