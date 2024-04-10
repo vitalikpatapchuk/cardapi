@@ -8,94 +8,115 @@ app.use(cors());
 let cradObgets = [
     {
         id:1,
-        titolo: "Dragon's Dogma 2",
-        immagine: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRXsre1_DAl4H2fNij-Tdv-DJhHCbdTFRpzjWquFmS5FmE3EvpgyhyM9AX5PStCIJWBdR1CuXW-FSw8N09SzJM2CEHNs6o74dk6Gn-KRAE&usqp=CAc",
-        descrizione: "Parti per la tua grande avventura, Arisen! Dragon's Dogma è una serie di GDR per giocatore singolo ricca di azione e narrazione che offre ai giocatori la possibilità di scrivere la propria storia, dall'aspetto del loro Arisen, la sua classe, la sua squadra, l'approccio alle varie situazioni e molto altro.",
-        link: "https://www.instant-gaming.com/it/15666-comprare-dragon-s-dogma-2-xbox-series-x-s-xbox-series-x-s-gioco-microsoft-store/?currency=EUR&utm_source=google&utm_medium=cpc&utm_campaign=21120682969&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQs95BhnYG3UwQM6UtNLiPRlFclg0FS9_Ket9SChG9POjU6P8gUJXXZRoCB9kQAvD_BwE"
+        titolo:"EA SPORTS FC™ 24",
+        immagine:"https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_EaSportsFc24_image500w.jpg",
+        descrizione:"EA SPORTS FC™ 24 è la nuova era del gioco più bello del mondo: oltre 19.000 giocatori con licenza piena, più di 700 squadre e oltre 30 campionati nell'esperienza calcistica più autentica mai creata. Vivi un'esperienza più immersiva che mai con due tecnologie d'avanguardia che offrono in ogni partita un realismo senza precedenti: stili di gioco ottimizzati da Opta e un motore Frostbite™ completamente rivisto rappresentano la base di EA SPORTS FC™ 24, per la prima volta nella storia di EA SPORTS™ su Nintendo Switch™.",
+        link:"https://multiplayer.it/recensioni/ea-sports-fc-24-recensione-nintendo-switch.html"
     },
     {
         id:2,
-        titolo: "Helldivers 2",
-        immagine: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTDqeIyPcYoLgl963YuEpwtJh-yks2DTZj5MoN38VwGlMJJWRpS72Nny5ouG318jAlMo8GSz1zm-UUBJPnDT-2s_VPqdBQT9FaiEt9QCKok&usqp=CAc",
-        descrizione: "L'ultima linea di attacco della galassia. Unisciti agli Helldiver per combattere in nome della libertà in una galassia ostile in questo frenetico e feroce sparatutto in terza persona. TRASMISSIONE URGENTE - FORZE ARMATE DELLA SUPER TERRALibertà. Pace. Democrazia. I tuoi diritti di nascita sulla Super Terra.",
-        link: "https://www.instant-gaming.com/it/9575-comprare-helldivers-2-pc-gioco-steam-europe/?currency=EUR&utm_source=google&utm_medium=cpc&utm_campaign=20519197874&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQs5mb0-lOxJuyP_dQmZ4pbbJ9mPfqqgcdNshjhRvv8mocYYUufFq3yBoCkxoQAvD_BwE"
+        titolo:"Just Dance®",
+        immagine:"https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_JustDance_V2_image500w.jpg",
+        descrizione:"Just Dance è una serie che non ha bisogno di presentazioni: fin dal 2009 Ubisoft si è fatta portatrice del potere universale della danza, mezzo comunicativo ed espressivo amato da milioni di persone in tutto il mondo. Non è un mistero che Just Dance abbia adottato un approccio profondamente conservativo nel corso degli anni, forte di una formula rodata e alfiere dell'antico adagio secondo cui squadra che vince non si cambia.",
+        link:"https://multiplayer.it/recensioni/just-dance-2023-recensione.html"
     },
     {
         id:3,
-        titolo: "S.T.A.L.K.E.R. 2",
-        immagine: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSswbiknH4X-7OqVKvOFdb2MgWK7Qg29gweIMF5DvfYssKgYyHZ-GU4CWuxQRsAWJrFILZtebpse_xWcDMh5-Wn8XdXnteLTZ_2mauWZA9Y81q_zmxMBf2L&usqp=CAc",
-        descrizione: "S.T.A.L.K.E.R. 2: Heart of Chernobyl per PC è un gioco di sopravvivenza horror sparatutto in prima persona (FPS), il quarto del famosissimo franchise di S.T.A.L.K.E.R. È un gioco per giocatore singolo che è stato in sviluppo per la maggior parte degli 11 anni, da quando lo studio che lo ha sviluppato, ha dovuto attraversare vari problemi finanziari e legali.",
-        link: "https://www.instant-gaming.com/it/5376-comprare-s-t-a-l-k-e-r-2-heart-of-chornobyl-pc-gioco-steam-europe/?currency=EUR&utm_source=google&utm_medium=cpc&utm_campaign=20513682663&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQs7IbUU1-dBJL8DOYNZlQkIxTO4d2bkL59M-z1BQerDyTiqtJm9UlKxoCaMYQAvD_BwE"
+        titolo:"Unravel Two",
+        immagine:"https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_UnravelTwo_image500w.jpg",
+        descrizione:"Quando tagli i ponti con il passato, si formano nuovi legami. In Unravel Two crei uno Yarny tutto tuo. Poi stringi relazioni con altri Yarny in partite locali co-op o per giocatore singolo, coltivando amicizie e offrendo il tuo sostegno in un viaggio comune. Inizia la tua avventura in una terra fredda e piena di fascino, poi guarda la vita sbocciare intorno a te mentre insegui lo spirito dell’avventura. Immergiti in una coinvolgente storia piena di energia, esuberanza, ispirazione... e mostri. Affronta ogni sfida con positività e ardore per risvegliare il mondo attorno a te e scopri il legame indissolubile dell’amicizia.",
+        link:"https://multiplayer.it/recensioni/unravel-2-two-recensione-201095.html"
     },
     {
         id:4,
-        titolo: "Elden Ring - Shadow of the Erdtree",
-        immagine: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSiIx0diTDhi79_iRzHHg00B9R6Jf43U5OI0zaBVhmrcl5W55VRS6KafzP9lZV0ho7Ddgc3FIp2T9sMc1yO1eDYB4IWfH6UYcXevUug_FFi&usqp=CAc",
-        descrizione: "Vincitore di centinaia di premi, tra cui quelli per Gioco dell''anno ai Game Awards e ai Golden Joystick Awards, ELDEN RING è l'acclamato GdR d'azione ambientato in un oscuro universo fantasy. Affronta un epico viaggio ed esplora in piena libertà un gigantesco mondo disseminato di avventure.",
-        link: "https://www.instant-gaming.com/it/13652-comprare-elden-ring-shadow-of-the-erdtree-pc-gioco-steam-europe/?currency=EUR&utm_source=google&utm_medium=cpc&utm_campaign=20513682663&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQsww76fS7-39tOdclTUXuv6D5aEu4WVMjdfPX1X28-wJqmZdvcUc3MBoCa2UQAvD_BwE"
+        titolo:"Animal Crossing: New Horizons",
+        immagine:"https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_AnimalCrossingNewHorizons_image500w.jpg",
+        descrizione:"Con solo una tenda e il tuo fidato Nook Phone nuovo di zecca, la vita all'inizio ti sembrerà un po' spartana. Ma non ti preoccupare! Con un po' di olio di gomito, l'isola può diventare un luogo che puoi chiamare (casa) con orgoglio. Come si dice, se vuoi che una cosa sia fatta come desideri, devi farla tu!",
+        link:"https://multiplayer.it/recensioni/animal-crossing-new-horizons-recensione.html"
     },
     {
         id:5,
-        titolo: "Avatar: Frontiers of Pandora",
-        immagine: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQir-ZooCwPK1NhfaOXmeVoXLH13u6lhBitJBI0A37X9-IqOD4fIzoKQKB0-9E2RvCKUpR5w7snsDanUJU_kgaDq9KGMf935ceC5qFin6hF&usqp=CAc",
-        descrizione: "Avatar: Frontiers of Pandora per PC è un gioco d'azione e avventura in prima persona. I giocatori vestono i panni di un orfano Na'vi che è stato adottato dalla RDA (Resources Development Administration - coloni giunti a Pandora per i minerali rari, tra le altre cose) e cresciuto come soldato.",
-        link: "https://www.instant-gaming.com/it/9014-comprare-avatar-frontiers-of-pandora-pc-gioco-ubisoft-connect-europe/?currency=EUR&utm_source=google&utm_medium=cpc&utm_campaign=20519197568&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQs9nmP0_0FIVuhgKt-wh9U0NQeNw_Na50GOtNJLFDsfr8mwahzQUoXBoC79QQAvD_BwE"
+        titolo:"Super Mario Odyssey",
+        immagine:"https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SuperMarioOdyssey_image500w.jpg",
+        descrizione:"Per parlare di questo gioco non possiamo che partire da due concetti, il primo dei quali è di facile comprensione. Nonostante sia stato spesso definito - e anche pubblicizzato - come tale, Super Mario Odyssey, almeno in senso stretto, non è il seguito di Super Mario 64. Il secondo concetto è leggermente più complicato, e antico quasi quanto l'opera citata nel titolo del gioco: EPD Tokyo ha peccato, se così si può dire, di hybris.",
+        link:"https://multiplayer.it/recensioni/190393-super-mario-odyssey-la-recensione-di-super-mario-odyssey.html"
     },
     {
         id:6,
-        titolo: "Cyberpunk 2077",
-        immagine: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSiaTn0Yf3ig49SDRigzb-_h4RzL8chjh_CNqzbIaqkY2NjWSqQCTMmbFdfkhAdm0TASFR5KhpqT6YYT3Z_CNw_2stCFjHJu2_4jCphTgzs&usqp=CAc",
-        descrizione: "Cyberpunk 2077 per PC è un gioco sparatutto in prima persona, ma con una differenza. É ambientato in uno stato distopico della California, in cui le regole della nazione e dello stato non si applicano più. Invece, giocando come un mercenario di nome V, il giocatore deve muoversi per la città, raggiungere i propri obiettivi e nel frattempo combattere i nemici.",
-        link: "https://www.instant-gaming.com/it/840-comprare-cyberpunk-2077-pc-gioco-gog-com/?currency=EUR&utm_source=google&utm_medium=cpc&utm_campaign=20519197568&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQs5wVQ3A9wlOHPgKdjJ7hOsQHq3-4rWMn5gUgcykBqhtIg2DJZUXwbRoCmmEQAvD_BwE"
+        titolo:"",
+        immagine:"https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_DragonBallZKakarotANewPowerAwakensSet_image500w.jpg",
+        descrizione:"Vai oltre la storia di DRAGON BALL Z e affronta 2 battaglie boss aggiuntive con il set Il risveglio di un nuovo potere! Padroneggia la potenza degli dei per sfidare Lord Bills e supera ogni limite per sconfiggere Freezer dorato con la forza del Super Saiyan Blue! Vivi la storia di DRAGON BALL Z tra epiche battaglie e spassose storie secondarie, tra cui momenti inediti che fanno luce su alcuni dettagli della storia di DRAGON BALL mai svelati prima!",
+        link:"https://multiplayer.it/recensioni/dragon-ball-z-kakarot-a-new-power-awakens-set-recensione-nintendo-switch.html"
     },
     {
         id:7,
-        titolo: "God of War: Ragnarök PS5",
-        immagine: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRv3C_62tYHIjI323kY5Yb6f5lBBangOkzPNr8FHKzoWmUPqR4D9WMDIBloC34obh3YC1A1kRY5pz_Jdv8Pf3VuwYA0vTyGQmFuPrqdOfdo&usqp=CAc",
-        descrizione: "È in arrivo dagli sviluppatori di Santa Monica Studio il sequel dell'apprezzatissimo God of War (2018). Unisciti a Kratos e Atreus in un viaggio mitico alla ricerca di risposte prima che sopraggiunga il Ragnarök. Insieme, padre e figlio si spingeranno al limite nel corso del loro viaggio in ognuno dei nove regni.",
-        link: "https://www.instant-gaming.com/it/9312-comprare-god-of-war-ragnarok-ps5-playstation-5-gioco-playstation-store-europe/?currency=EUR&utm_source=google&utm_medium=cpc&utm_campaign=21064117133&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQs_F-tzEggTXIvmzV44ilrRUo_vzNCsN4yS-3zNO5MUld_XpQgi82uxoCG68QAvD_BwE"
+        titolo:"LEGO® Marvel™ Super Heroes",
+        immagine:"https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_LegoMarvelSuperHeroes_image500w.jpg",
+        descrizione:"LEGO® Marvel™ Super Heroes presenta una storia originale che attraversa l'intero universo Marvel. I giocatori vestiranno i panni di Iron Man, Spider-Man, Hulk, Capitan America, Wolverine e molti altri personaggi Marvel uniti da una sola missione: impedire a Loki e a una schiera di supercattivi Marvel di costruire una super arma in grado di distruggere il mondo intero",
+        link:"https://multiplayer.it/recensioni/125732-lego-marvel-super-heroes-un-mattoncino-per-wolverine.html"
     },
     {
         id:8,
-        titolo: "Hogwarts Legacy",
-        immagine: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTAJpVy-K82y3YNO5UYAXh-RSXAFY8Z7eJFnyjuV0SBhLjUzjBG8rCREzC6nUz8M99tq8Xt9kCS5y0lzHJGgwqGvXzLtMwXFuUFTMhfU0g&usqp=CAc",
-        descrizione: "Hogwarts Legacy per PC è un gioco di ruolo d'azione e avventura per giocatore singolo basato sull'universo di Harry Potter, in cui il giocatore assume il ruolo di un nuovo arrivato nel castello incantato tanto amato dai fan dei libri e del franchise cinematografico.",
-        link: "https://www.instant-gaming.com/it/7072-comprare-hogwarts-legacy-pc-gioco-steam-europe/?currency=EUR&utm_source=google&utm_medium=cpc&utm_campaign=20519197568&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQsxe01DkHLukyPWFhq-REIRmcwa57bBR9ahj3UC0CnXN3158mW9BlYxoCzQUQAvD_BwE"
+        titolo:"Hogwarts Legacy",
+        immagine:"https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_HogwartsLegacy_image500w.jpg",
+        descrizione:"Hogwarts Legacy è un coinvolgente gioco di ruolo d'azione open world, ambientato nel magico universo dei libri di Harry Potter. Ora puoi assumere il controllo della narrazione ed essere il protagonista della tua storia personale nel mondo magico. Vivi a Hogwarts nel 1800. Forgia alleanze, combatti i Maghi Oscuri e determina il fato del mondo magico. L'eredità che lascerai è solo tua da plasmare. Scrivi la tua storia.",
+        link:"https://multiplayer.it/notizie/hogwarts-legacy-nintendo-switch-digital-foundry-conferma-tanti-compromessi.html"
     },
     {
         id:9,
-        titolo: "Warhammer Age of Sigmar: Realms of Ruin",
-        immagine: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSOKRt0ZF16fsx34Oxvfos1W0m--2oRRGLIwX-hrcNkJrDIkyST-7H4i9yP3BiSwro_7FyVf2kmfzsfG-AgjS5vI2zNpvmo3ZwIZ70eRAo&usqp=CAc",
-        descrizione: "Uno strategico in tempo reale realizzato da Frontier e ambientato nell'iconico universo di Warhammer. Diventa un generale e guida quattro diverse fazioni per conquistare il selvaggio Regno di Ghur in battaglie cariche di tensione e strategia.",
-        link: "https://www.instant-gaming.com/it/14228-comprare-warhammer-age-of-sigmar-realms-of-ruin-pc-gioco-steam/?currency=EUR&utm_source=google&utm_medium=cpc&utm_campaign=20519197568&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQs85V7514ENnoJ272AgGSC92eFaMHHxt8bWevk-IpWTL1EqLpJdckSBoCYYkQAvD_BwE"
+        titolo:"Rayman Legends: Definitive Edition",
+        immagine:"https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_RaymanLegendsDefinitiveEdition_image500w.jpg",
+        descrizione:"Nonostante sia nato come esclusiva Wii U, l'eccellente Rayman Legends non è rimasto confinato per troppo tempo nella libreria ludica della console Nintendo: complici anche le scarse vendite dell'hardware, il prodotto Ubisoft ci ha messo meno di un anno per sbarcare su PC, PlayStation 4, Xbox One e persino PlayStation Vita, confermandosi in tutte queste versioni come uno dei migliori platform bidimensionali degli ultimi tempi.",
+        link:"https://multiplayer.it/recensioni/188671-rayman-legends-definitive-edition-a-volte-ritornano-la-recensione-di-rayman-legends-definitive-edition.html"
     },
     {
         id:10,
-        titolo: "Spy Family",
-        immagine: "https://e423jnt9w5t.exactdn.com/wp-content/uploads/2023/09/spy-x-family.jpg?strip=all&lossy=1&ssl=1",
-        descrizione: "Spy Family è un appassionante manga/anime che mescola azione, comicità e suspense in un'avventura spionistica unica nel suo genere. Segui la storia di Twilight, un agente segreto, che forma una famiglia improvvisata per una missione importante. Con personaggi eccentrici e situazioni improbabili, Spy Family offre un'esperienza avvincente e divertente che cattura l'attenzione degli spettatori di tutte le età.",
-        link: "https://www.mondadoristore.it/spy-x-family/#:~:text=La%20storia%20di%20Spy%20x,piccola%20orfana%20con%20poteri%20psichici."
+        titolo:"Cars 3: In Gara per la Vittoria",
+        immagine:"https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_Cars3DrivenToWin_enGB_image500w.jpg",
+        descrizione:"Scopri oltre 20 personaggi personalizzabili tra cui Saetta McQueen, Jackson Storm, Cruz Ramirez e la futura generazione di piloti in più di 20 percorsi ambientati in luoghi rappresentativi del film, come Radiator Springs. Allenati e affina le tue abilità in 6 modalità di gioco e competi con la tua famiglia e i tuoi amici nella Sfida Automobilistica per diventare il campione supremo. Sulla strada per diventare un pilota degno della Hall of Fame, l'allenamento e l'abilità ti daranno un vantaggio in gara che nessuno potrà superare.",
+        link:"https://multiplayer.it/giochi/cars-3-in-gara-per-la-vittoria-per-nsw.html"
     },
     {
         id:11,
-        titolo: "Attack on Titan",
-        immagine: "https://e423jnt9w5t.exactdn.com/wp-content/uploads/2023/09/attack-on-titan.jpg?strip=all&lossy=1&ssl=1",
-        descrizione: "Attack on Titan è un acclamato manga e anime che racconta la storia di un mondo devastato da giganteschi esseri umanoidi noti come Titani. In un contesto post-apocalittico, i sopravvissuti umani si rifugiano all'interno di enormi mura per proteggersi. La trama segue Eren Yeager e i suoi amici mentre cercano di sconfiggere i Titani e scoprire la verità dietro la loro esistenza, affrontando oscuri segreti e tradimenti lungo il cammino. Con un mix di azione, dramma e suspense, Attack on Titan offre un'avventura avvincente e emozionante che ha catturato milioni di fan in tutto il mondo.",
-        link: "https://shingekinokyojin.fandom.com/it/wiki/Shingeki_no_Kyojin"
+        titolo:"Monopoly per Nintendo Switch",
+        immagine:"https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_MonopolyForNintendoSwitch_enGB_image500w.jpg",
+        descrizione:"Prova tre tabelloni 3D unici a casa o in viaggio con un massimo di sei giocatori in totale, oppure porta il tuo gioco online e sfida i giocatori in partite veloci. Non hai tempo per una partita completa? Velocizzala con gli Obiettivi speciali, che accorciano le sessioni di gioco, e con le Carte azioni per spostarti sul tabellone e penalizzare i tuoi avversari. Costruisci il tuo impero e contratta fino alla vittoria!",
+        link:"https://multiplayer.it/giochi/monopoly-per-nintendo-switch-per-nsw.html"
     },
     {
         id:12,
-        titolo: "Hell's Paradise",
-        immagine: "https://e423jnt9w5t.exactdn.com/wp-content/uploads/2023/09/hells-paradise.jpg?strip=all&lossy=1&ssl=1",
-        descrizione: "Hell's Paradise è stato una delle rivelazioni di quest'anno. Prodotto dal sempre presente studio MAPPA, è riuscito fin da subito ad incantare il pubblico per le sue ambientazioni dai colori suggestivi e la trama cruenta e misteriosa. L'opera originale è scritta e disegnata da Yuji Kaku, ed è pubblicata dal 2018, completata poi nel 2021.",
-        link: "https://www.dimensionefumetto.it/hells-paradise-jigokuraku-un-racconto-darmi-e-di-eroi/#:~:text=%E2%80%9CInferno%20del%20paradiso%E2%80%9D%2C%20un,2021%2C%20composta%20da%2013%20volumi."
+        titolo:"ASSASSIN'S CREED®: THE EZIO COLLECTION",
+        immagine:"https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_AssassinsCreedTheEzioCollection_image500w.jpg",
+        descrizione:"Include le acclamate campagne per giocatore singolo e tutti i DLC dei tre giochi: Assassin's Creed® II, Assassin's Creed® Brotherhood e Assassin's Creed® Revelations, oltre a due cortometraggi. Rivivi l'intera saga del Maestro Assassino. Apprendi le tattiche degli Assassini mentre vendichi il tradimento subito dalla tua famiglia. Viaggia nell'Italia rinascimentale del XV secolo e diventa il capo più leggendario della Confraternita, poi salpa per un'ultima missione nella quale scoprirai la verità sul Credo.",
+        link:"https://multiplayer.it/recensioni/assassins-creed-the-ezio-collection-recensione-nintendo-switch.html"
     },
     {
         id:13,
-        titolo: "That time i Got Reincarnated as a Slime",
-        immagine: "https://e423jnt9w5t.exactdn.com/wp-content/uploads/2023/09/that-time-i-got-reincarnated-as-a-slime.jpg?strip=all&lossy=1&ssl=1",
-        descrizione: "TenSura (per non ripetere il lunghissimo nome di questo anime) è stato una vera e propria rivelazione. In un panorama dove gli Isekai (genere di anime nel quale il protagonista solitamente si reincarna in un altro mondo fantastico ed ottiene poteri oltre ogni limite) la fanno da padrone, finalmente abbiamo un opera ben scritta, con personaggi interessanti ed una trama non proprio così banale.",
-        link: "https://www.animeclick.it/anime/23783/tensei-shitara-slime-datta-ken"
+        titolo:"NINTENDO SWITCH OLED CON 8GB DI RAM: MODDER RIESCE A ESEGUIRE ZELDA TOTK IN 4K!",
+        immagine:"https://images.everyeye.it/img-notiziealt/nintendo-switch-oled-8gb-ram-modder-riesce-eseguire-zelda-totk-4k-v4-710268-350x16.webp",
+        descrizione:"Mentre in rete continuano a rimbalzare i rumor su Nintendo Switch 2, un creatore di contenuti con la passione per il modding ha provato a spingere l'architettura hardware di Nintendo Switch al massimo delle sue potenzialità grafiche e prestazionali integrando 8GB di RAM a un modello OLED della console ibrida.",
+        link:"https://www.everyeye.it/notizie/nintendo-switch-oled-8gb-ram-modder-riesce-eseguire-zelda-totk-4k-710268.html"
+    },
+    {
+        id:14,
+        titolo:"QUALI SONO I MIGLIORI GIOCHI NINTENDO SWITCH USCITI NEL 2024 FINORA? LA CLASSIFICA",
+        immagine:"https://images.everyeye.it/img-notiziealt/quali-migliori-giochi-nintendo-switch-usciti-2024-finora-classifica-v4-709334-350x16.webp",
+        descrizione:"Con il 2024 che ha concluso il suo primo trimestre si può iniziare a tirare le prime somme sui giochi più belli pubblicati su Nintendo Switch tra gennaio e marzo. E così, dopo aver scoperto quali sono i migliori giochi PS5 dei primi mesi del 2024, passiamo ora in rassegna il meglio offerto fin qui dalla console ibrida Nintendo secondo le medie su Metacritic:",
+        link:"https://www.everyeye.it/notizie/migliori-giochi-nintendo-switch-usciti-2024-finora-classifica-709334.html"
+    },
+    {
+        id:15,
+        titolo:"NINTENDO 3DS E WII U PROSSIME AL TRAMONTO: I SERVER ONLINE VERRANNO SPENTI A BREVE",
+        immagine:"https://images.everyeye.it/img-notiziealt/nintendo-3ds-wii-u-prossime-tramonto-server-online-verranno-spenti-breve-v3-708637-350x16.webp",
+        descrizione:"A distanza di qualche mese dalla chiusura dell'eShop, Nintendo ha annunciato che manca davvero poco all'interruzione definitiva di tutti i servizi online di 3DS e WiiU, le vecchie console dell'azienda di Kyoto.",
+        link:"https://www.everyeye.it/notizie/nintendo-3ds-wii-u-prossime-tramonto-server-online-verranno-spenti-breve-708637.html"
+    },
+    {
+        id:16,
+        titolo:"SCONTI NINTENDO: 5 OFFERTE INCREDIBILI SUI MIGLIORI GIOCHI SWITCH",
+        immagine:"https://images.everyeye.it/img-notiziealt/sconti-nintendo-5-offerte-incredibili-migliori-giochi-switch-v5-707671-350x16.webp",
+        descrizione:"Una valanga di offerte sui migliori videogiochi per Nintendo Switch! Tra tutti, Just Dance 2024, il gioco di ballo più amato, ora in vendita a prezzo scontato. Ma ci sono anche tanti altri giochi in sconto per divertirsi.... risparmiando!",
+        link:"https://www.everyeye.it/notizie/sconti-nintendo-5-offerte-incredibili-migliori-giochi-switch-707671.html"
     }
 ]
 
